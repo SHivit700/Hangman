@@ -8,8 +8,7 @@ class hangman extends Canvas
 {
     public static int gameChosen;
 
-    public static String word = "hi";
-    // public static String word = randomWord().toLowerCase();
+    public static String word = randomWord().toLowerCase();
 
     public static final int gameOver = 5;
     public static final int gameWon = 10;
